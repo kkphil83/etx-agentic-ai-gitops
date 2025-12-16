@@ -22,7 +22,8 @@ cluster:
 # Set to empty to NOT create workspaces
 # workspace: ""
 workspace:
-  # llamaStackPlaygroundImage: quay.io/eformat/streamlit_client:0.2.15
+  llamaStackPlaygroundImage: ""
+  # llamaStackPlaygroundImage: "quay.io/eformat/streamlit_client:0.2.15"
   git:
     url: https://github.com/rhpds/etx-agentic-ai-gitops.git
     revision: main
